@@ -24,5 +24,5 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/jilei6/HybridNSURLProtocol.git", :tag => "#{s.version}" }
 
-  s.source_files     = 'HybridNSURLProtocol/**/*'
+  s.source_files     = 'HybridNSURLProtocol/*'
   end
