@@ -24,5 +24,12 @@ Pod::Spec.new do |s|
   s.platform     = :ios
   s.source       = { :git => "https://github.com/jilei6/HybridNSURLProtocol.git", :tag => "#{s.version}" }
 
-  s.source_files     = 'HybridNSURLProtocol/**/*'
+    # UIView 和 EasyLog 在工程中以子目录显示
+    s.subspec 'protrol' do |ss|
+    ss.source_files = 'HybridNSURLProtocol/HybridNSURLProtocol/protrol/*.{h,m}'
+    end
+
+    s.subspec 'wkwebview' do |ss|
+    ss.source_files = 'HybridNSURLProtocol/HybridNSURLProtocol/wkwebview/*.{h,m}'
+end
 end
