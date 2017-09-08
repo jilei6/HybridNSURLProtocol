@@ -14,9 +14,11 @@ Pod::Spec.new do |s|
   s.version      = "0.0.1"
   s.summary      = "A short description of HybridProtocol."
   s.description  = <<-DESC
+
+             TODO: Add long description of the pod here.
                    DESC
 
-  s.homepage     = "https://github.com/jilei6/HybridProtocol"
+  s.homepage     = "https://github.com/jilei6/HybridNSURLProtocol"
   s.license      = "MIT"
   s.author             = { "consins" => "consins@cubee.com" }
   s.platform     = :ios
